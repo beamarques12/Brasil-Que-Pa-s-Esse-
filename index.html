@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A história do cinema no Brasil</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="icon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Code:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/estilo.css">
+<body>
+    <!---cabeçalho--->
+    <header>
+        <div id="logo-titulo">
+            <a href="#"><img src="imagens/logo.png" alt=""></a>
+        </div>
+        <nav class="links">
+        <a href="#">Home</a>
+		<a href="história.html">História</a>
+	    <a href="estrelas.html">Estrelas</a>
+		<a href="filmes.html">Filmes</a>
+        </nav>
+    </header>
+    
+    <div class="título"><h1>Brasil - Que País é Esse?</h1></div>
+    
+    <!--slider-->
+    <div class="slider">
+        <div class="slides">
+            <!--radio buttons-->
+        <input type="radio" id="slide1" name="radio-btn" checked>
+        <input type="radio" id="slide2" name="radio-btn" checked>
+        <input type="radio" id="slide3" name="radio-btn" checked>
+              
+    <!--slide imagens-->
+        <div class="slide first">
+            <img src="imagens/história.gif" />
+        </div>
+        <div class="slide">
+            <img src="imagens/slider.jpg" />
+        </div>
+        <div class="slide">
+            <img src="imagens/fundo-cinema.jpg" />
+        </div>
+
+    <!--navigation auto-->
+        <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        </div>
+    </div>
+
+    <!--manual-navigation-->
+        <div class="manual-navigation">
+        <label for="slide1" class="manual-btn"></label>
+        <label for="slide2" class="manual-btn"></label>
+        <label for="slide3" class="manual-btn"></label>
+        </div>
+    </div>
+    <!---->
+
+
+    <!--escolha-->
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2>01</h2>
+                <h3>História</h3>
+                <p>Conheça um pouco mais sobre a história do cinema brasileiro e suas diversas transformações, desde a sua criação até os dias atuais!</p>
+                    <a href="história.html">Saiba mais</a>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <h2>02</h2>
+                <h3>Estrelas do Cinema</h3>
+                <p>Descubra quais foram as maiores estrelas do cinema brasileiro e a importância de cada uma delas para a história do nosso país!</p>
+                    <a href="estrelas.html">Saiba mais</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="content">
+                <h2>03</h2>
+                <h3>Filmes Marcantes</h3>
+                <p>Veja a lista de filmes que mais marcaram as diferentes gerações do Brasil!</p>
+                    <a href="filmes.html">Saiba mais</a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>VanillaTilt.init(document.querySelectorAll(".card"));</script>
+    </div>
+    <footer class="area-rodape">
+        &copy;BEATRIZ MARQUES - 1º ano de Informática
+        </footer>
+</body>
+</html>
